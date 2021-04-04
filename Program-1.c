@@ -8,12 +8,12 @@ Complete the given program with string declaration/initialization & read/print t
 //Enter a String: Vidyavardhaka
 //The input string is Vidyavardhaka
 
-#include <stdio.h>
+#include<stdio.h>
 int main() 
 {
-                      //Declare the string
+  char a[20];
 printf("Enter a String: ")
-                      //read the string from user
-                      //Print the string
+ scanf("%s",a);
+ printf("the input string is %s",a);
 return 0;
 }
